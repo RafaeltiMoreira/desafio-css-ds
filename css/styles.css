@@ -158,13 +158,13 @@ footer {
 
 .footer-content {
   display: flex;
-  padding: 60px 0px;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
 
 .footer-content-insta {
+  margin-top: 60px;
   display: flex;
   align-items: center;
   margin-bottom: 10px;
@@ -185,7 +185,7 @@ footer {
 .footer-content-insta a {
   color: var(--color-white);
   font-size: 14px;
-  padding: 0px 6px;
+  padding: 0 0 0 10px;
   cursor: pointer;
 }
 
@@ -201,4 +201,5 @@ footer {
   font-size: 14px;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 60px;
 }
